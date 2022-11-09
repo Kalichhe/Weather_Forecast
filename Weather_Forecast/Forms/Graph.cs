@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Weather_Forecast.Forms
 {
-    public partial class Predict : Form
+    public partial class Graph : Form
     {
-        public Predict()
+        public Graph()
         {
             InitializeComponent();
         }
-
-        private void Predict_button1_Click(object sender, EventArgs e)
-        {
-            using (Graph graph = new Graph())
-                graph.ShowDialog();
-        }
-
     }
 }
